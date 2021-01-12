@@ -390,7 +390,7 @@
             }
         });
         a || (s = s.disable("image")), s.use(i.default);
-        var l = "* { color: " + t + "; } a { cursor: point;text-decoration: underline;color: " + t + "; } a:hover, a:visited { color: " + t + "; }",
+        var l = ":root { --background-color: " + t + " !important;--color: " + t + " !important; }",
             c = document.head || document.getElementsByTagName("head")[0],
             _ = document.createElement("style");
         c.appendChild(_), _.type = "text/css", _.styleSheet ? _.styleSheet.cssText = l : _.appendChild(document.createTextNode(l));
