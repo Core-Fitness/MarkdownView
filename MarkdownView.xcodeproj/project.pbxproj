@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E2E8207252F50A300F48771 /* ModuleCocoaPods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E8206252F50A300F48771 /* ModuleCocoaPods.swift */; };
+		BA54656025AE375D00D51ACB /* Fugue-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA54655F25AE375600D51ACB /* Fugue-Regular.otf */; };
 		FC9CC4C51EC43FA90013238C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC9CC4BD1EC43FA90013238C /* index.html */; };
 		FC9CC4C61EC43FA90013238C /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = FC9CC4BE1EC43FA90013238C /* main.css */; };
 		FC9CC4C71EC43FA90013238C /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = FC9CC4BF1EC43FA90013238C /* main.js */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		3E2E8206252F50A300F48771 /* ModuleCocoaPods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleCocoaPods.swift; sourceTree = "<group>"; };
+		BA54655F25AE375600D51ACB /* Fugue-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Fugue-Regular.otf"; path = "Resources/Fugue-Regular.otf"; sourceTree = "<group>"; };
 		FC9CC4BD1EC43FA90013238C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = Sources/MarkdownView/Resources/index.html; sourceTree = SOURCE_ROOT; };
 		FC9CC4BE1EC43FA90013238C /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = main.css; path = Sources/MarkdownView/Resources/main.css; sourceTree = SOURCE_ROOT; };
 		FC9CC4BF1EC43FA90013238C /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = main.js; path = Sources/MarkdownView/Resources/main.js; sourceTree = SOURCE_ROOT; };
@@ -72,6 +74,7 @@
 				FC9CC4BD1EC43FA90013238C /* index.html */,
 				FC9CC4BE1EC43FA90013238C /* main.css */,
 				FC9CC4BF1EC43FA90013238C /* main.js */,
+				BA54655F25AE375600D51ACB /* Fugue-Regular.otf */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				FC9CC4C61EC43FA90013238C /* main.css in Resources */,
 				FC9CC4C51EC43FA90013238C /* index.html in Resources */,
 				FC9CC4C71EC43FA90013238C /* main.js in Resources */,
+				BA54656025AE375D00D51ACB /* Fugue-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
