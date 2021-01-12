@@ -275,7 +275,7 @@ textarea {
     line-height: inherit;
 }
 a {
-    color: #337ab7;
+    color: var(--color);
     text-decoration: none;
 }
 a:focus,
