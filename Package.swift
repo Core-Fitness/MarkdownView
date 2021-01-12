@@ -25,7 +25,8 @@ let package = Package(
             resources: [
                 .copy("Resources/index.html"),
                 .copy("Resources/main.js"),
-                .copy("Resources/main.css")
+                .copy("Resources/main.css"),
+                .copy("Resources/Fugue-Regular.otf")
             ]
         )
     ]
