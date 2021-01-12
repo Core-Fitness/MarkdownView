@@ -276,7 +276,8 @@ textarea {
 }
 a {
     color: var(--color);
-    text-decoration: none;
+    cursor: pointer;
+    text-decoration: underline;
 }
 a:focus,
 a:hover {
