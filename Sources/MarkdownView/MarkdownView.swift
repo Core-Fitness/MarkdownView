@@ -48,7 +48,7 @@ open class MarkdownView: UIView {
     }
   }
 
-  @objc public func load(markdown: String?, enableImage: Bool = true) {
+  @objc public func load(markdown: String?, textColor: String = "#000000", enableImage: Bool = true) {
     guard let markdown = markdown else { return }
 
     if let url = htmlURL {
@@ -56,7 +56,7 @@ open class MarkdownView: UIView {
 
       let escapedMarkdown = self.escape(markdown: markdown) ?? ""
       let imageOption = enableImage ? "true" : "false"
-      let script = "window.showMarkdown('\(escapedMarkdown)', \(imageOption));"
+      let script = "window.showMarkdown('\(escapedMarkdown)', '\(textColor)', \(imageOption));"
       let userScript = WKUserScript(source: script, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
 
       let controller = WKUserContentController()
