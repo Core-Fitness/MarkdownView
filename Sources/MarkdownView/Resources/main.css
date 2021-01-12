@@ -207,7 +207,7 @@ th {
     }
     blockquote,
     pre {
-        border: 1px solid #999;
+        border: 1px solid var(--color);
         page-break-inside: avoid;
     }
     thead {
@@ -651,7 +651,7 @@ blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
     font-size: 17.5px;
-    border-left: 5px solid #eee;
+    border-left: 5px solid var(--color);
 }
 blockquote ol:last-child,
 blockquote p:last-child,
@@ -781,11 +781,11 @@ th {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--color);
 }
 .table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid var(--color);
 }
 .table > caption + thead > tr:first-child > td,
 .table > caption + thead > tr:first-child > th,
@@ -796,7 +796,7 @@ th {
     border-top: 0;
 }
 .table > tbody + tbody {
-    border-top: 2px solid #ddd;
+    border-top: 2px solid var(--color);
 }
 .table .table {
     background-color: #fff;
@@ -816,7 +816,7 @@ th {
 .table-bordered > tfoot > tr > th,
 .table-bordered > thead > tr > td,
 .table-bordered > thead > tr > th {
-    border: 1px solid #ddd;
+    border: 1px solid var(--color);
 }
 .table-bordered > thead > tr > td,
 .table-bordered > thead > tr > th {
@@ -954,7 +954,7 @@ table th[class*="col-"] {
         margin-bottom: 15px;
         overflow-y: hidden;
         -ms-overflow-style: -ms-autohiding-scrollbar;
-        border: 1px solid #ddd;
+        border: 1px solid var(--color);
     }
     .table-responsive > .table {
         margin-bottom: 0;
